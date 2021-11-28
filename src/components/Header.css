@@ -1,0 +1,16 @@
+.navbar-bg{
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.nav-link{
+    font-size: 25px;
+    color: white !important;
+    margin-right: 15px;
+    transition: .3s;
+}
+.nav-link:hover{
+    background-color: tomato;
+    border-radius: 5px;
+}
