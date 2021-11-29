@@ -10,7 +10,7 @@ const Banner = () => {
                 <div>
                     <h4>Hello! I am</h4>
                     <h1 className='my-name'>Shakil Hossain</h1>
-                    <h1>I am a Junior Web Developer</h1>
+                    <h1>I am Junior Front-End Web Developer</h1>
                     <a target='_blank' href={resume}>
                         <button className='resume-btn'>Get Resume</button>
                     </a>
