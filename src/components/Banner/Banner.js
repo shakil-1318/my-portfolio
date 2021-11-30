@@ -6,7 +6,7 @@ const Banner = () => {
 
     return (
         <div className='banner' id='home'>
-            <div className='container'>
+            <div className='container glass'>
                 <div>
                     <h4>Hello! I am</h4>
                     <h1 className='my-name'>Shakil Hossain</h1>

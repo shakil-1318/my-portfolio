@@ -1,10 +1,75 @@
 .project-section{
-    background: #7F00FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-    /* background: #0f0c29; 
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.625;
+    font-weight: 400;
+    /* padding: 0px; */
+    box-sizing: border-box;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    color: var(--theme-ui-colors-text,#e2e8f0);
+    background-color: var(--theme-ui-colors-background,#141821);
+    --theme-ui-colors-transparent: var(--theme-ui-colors-transparent,transparent);
+    --theme-ui-colors-black: var(--theme-ui-colors-black,#000);
+    --theme-ui-colors-white: var(--theme-ui-colors-white,#fff);
+    --theme-ui-colors-gray-0: var(--theme-ui-colors-gray-0,null);
+    --theme-ui-colors-gray-1: var(--theme-ui-colors-gray-1,#f7fafc);
+    --theme-ui-colors-gray-2: var(--theme-ui-colors-gray-2,#edf2f7);
+    --theme-ui-colors-gray-3: var(--theme-ui-colors-gray-3,#e2e8f0);
+    --theme-ui-colors-gray-4: var(--theme-ui-colors-gray-4,#cbd5e0);
+    --theme-ui-colors-gray-5: var(--theme-ui-colors-gray-5,#a0aec0);
+    --theme-ui-colors-gray-6: var(--theme-ui-colors-gray-6,#718096);
+    --theme-ui-colors-gray-7: var(--theme-ui-colors-gray-7,#4a5568);
+    --theme-ui-colors-gray-8: var(--theme-ui-colors-gray-8,#2d3748);
+    --theme-ui-colors-gray-9: var(--theme-ui-colors-gray-9,#1a202c);
+    --theme-ui-colors-red-0: var(--theme-ui-colors-red-0,null);
+    --theme-ui-colors-red-1: var(--theme-ui-colors-red-1,#fff5f5);
+    --theme-ui-colors-red-2: var(--theme-ui-colors-red-2,#fed7d7);
+    --theme-ui-colors-red-3: var(--theme-ui-colors-red-3,#feb2b2);
+    --theme-ui-colors-red-4: var(--theme-ui-colors-red-4,#fc8181);
+    --theme-ui-colors-red-5: var(--theme-ui-colors-red-5,#f56565);
+    --theme-ui-colors-red-6: var(--theme-ui-colors-red-6,#e53e3e);
+    --theme-ui-colors-red-7: var(--theme-ui-colors-red-7,#c53030);
+    --theme-ui-colors-red-8: var(--theme-ui-colors-red-8,#9b2c2c);
+    --theme-ui-colors-red-9: var(--theme-ui-colors-red-9,#742a2a);
+    --theme-ui-colors-orange-0: var(--theme-ui-colors-orange-0,null);
+    --theme-ui-colors-orange-1: var(--theme-ui-colors-orange-1,#fffaf0);
+    --theme-ui-colors-orange-2: var(--theme-ui-colors-orange-2,#feebc8);
+    --theme-ui-colors-orange-3: var(--theme-ui-colors-orange-3,#fbd38d);
+    --theme-ui-colors-orange-4: var(--theme-ui-colors-orange-4,#f6ad55);
+    --theme-ui-colors-orange-5: var(--theme-ui-colors-orange-5,#ed8936);
+    --theme-ui-colors-orange-6: var(--theme-ui-colors-orange-6,#dd6b20);
+    --theme-ui-colors-orange-7: var(--theme-ui-colors-orange-7,#c05621);
+    --theme-ui-colors-orange-8: var(--theme-ui-colors-orange-8,#9c4221);
+    --theme-ui-colors-orange-9: var(--theme-ui-colors-orange-9,#7b341e);
+    --theme-ui-colors-yellow-0: var(--theme-ui-colors-yellow-0,null);
+    --theme-ui-colors-yellow-1: var(--theme-ui-colors-yellow-1,#fffff0);
+    --theme-ui-colors-yellow-2: var(--theme-ui-colors-yellow-2,#fefcbf);
+    --theme-ui-colors-yellow-3: var(--theme-ui-colors-yellow-3,#faf089);
+    --theme-ui-colors-yellow-4: var(--theme-ui-colors-yellow-4,#f6e05e);
+    --theme-ui-colors-yellow-5: var(--theme-ui-colors-yellow-5,#ecc94b);
+    --theme-ui-colors-yellow-6: var(--theme-ui-colors-yellow-6,#d69e2e);
+    --theme-ui-colors-yellow-7: var(--theme-ui-colors-yellow-7,#b7791f);
+    --theme-ui-colors-yellow-8: var(--theme-ui-colors-yellow-8,#975a16);
+    --theme-ui-colors-yellow-9: var(--theme-ui-colors-yellow-9,#744210);
+    --theme-ui-colors-green-0: var(--theme-ui-colors-green-0,null);
+    --theme-ui-colors-green-1: var(--theme-ui-colors-green-1,#f0fff4);
+    --theme-ui-colors-green-2: var(--theme-ui-colors-green-2,#c6f6d5);
+    --theme-ui-colors-green-3: var(--theme-ui-colors-green-3,#9ae6b4);
+    --theme-ui-colors-green-4: var(--theme-ui-colors-green-4,#68d391);
+    --theme-ui-colors-green-5: var(--theme-ui-colors-green-5,#48bb78);
+    --theme-ui-colors-green-6: var(--theme-ui-colors-green-6,#38a169);
     
+}
+.details-btn{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: none;
+    margin-left: 100px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.details-btn:hover{
+    background-color: cornflowerblue;
+    color: white;
 }

@@ -1,11 +1,13 @@
 .about-section{
-    color: white;
-    background: #7F00FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    /* background: #0f0c29;  
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  */
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.625;
+    font-weight: 400;
+    /* padding: 0px; */
+    box-sizing: border-box;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    color: var(--theme-ui-colors-text,#e2e8f0);
+    background-color: var(--theme-ui-colors-background,#141821);
 
 }

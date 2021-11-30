@@ -1,21 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
-import Banner from './components/Banner/Banner';
-import About from './components/About/About';
-import Project from './components/Projects/Project';
-import Contact from './components/Contact/Contact';
+import Home from './components/Home/Home';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Blogs from './components/Blogs/Blogs';
+import CarShop from './components/CarShop/CarShop';
+
 
 
 function App() {
   return (
     <div >
-      <Header></Header>
-      <Banner></Banner>
-      <About></About>
-      <Project></Project>
-      <Contact></Contact>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/blog" element={<Blogs />} />
+          <Route path="/carshop" element={<CarShop />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
